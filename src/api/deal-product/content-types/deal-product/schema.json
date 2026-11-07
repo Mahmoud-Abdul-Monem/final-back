@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deal_products",
+  "info": {
+    "singularName": "deal-product",
+    "pluralName": "deal-products",
+    "displayName": "deal-product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "originalPrice": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "string"
+    },
+    "sold": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "offerId": {
+      "type": "integer"
+    }
+  }
+}
